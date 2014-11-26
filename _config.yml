@@ -1,13 +1,37 @@
-# Site settings
-title: "Code Salad"
-email: davidcollins4481@gmail.com
-description: "Just a place to write code and play."
-baseurl: ""
-url: "http://davidcollins4481.github.io"
-#twitter_username: jekyllrb
-github_username:  davidcollins4481
+baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
+url: "davidcollins4481.github.io" # the base hostname & protocol for your site.
+title: "Dave Collins"
 
-# Build settings
-markdown: kramdown
-permalink: pretty
-gems: [jekyll-sass-converter]
+
+paginate: 3 #articles per page
+paginate_path: /blog/page:num #makes pagination working
+
+#contacts
+git: "https://github.com/davidcollins4481?tab=repositories"  #Add your github url here.
+
+
+gems:
+  - jekyll-sitemap
+
+# This is used by feed.xml. Uncomment if you want to use it.
+# description: "..."
+
+exclude:
+  - "README.md"
+  - "CHANGELOG.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+permalink: :title
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

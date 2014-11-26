@@ -1,0 +1,21 @@
+<div id="title">
+  <h1>
+    {% if site.git %}
+      <a id="git-ic" href="{{site.git}}"><i class="fa fa-github"></i></a>
+    {% endif %}
+
+    {% if site.stackoverflow %}
+      <a id="so-ic" href="{{site.stackoverflow}}"><i class="fa fa-stack-overflow"></i></a>
+    {% endif %}
+    <a id="sitename" href="/">davidcollins4481.github.io</a>
+  </h1>
+<div style="block">
+
+</div>
+  <!-- Add something about you in p tag-->
+  <p>Hello, my name is Dave Collins. I'm a Full Stack Web Developer from Canton, Ohio.</p>
+  <hr/>
+
+  {% include nav-links.html %}
+
+</div>
