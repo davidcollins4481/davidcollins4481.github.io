@@ -22,38 +22,148 @@
   </url>
   <url>
     <loc>davidcollins4481.github.io/archive/</loc>
-    <lastmod>2014-11-25T23:09:32-05:00</lastmod>
+    <lastmod>2014-11-27T00:22:43-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>davidcollins4481.github.io/blog/</loc>
-    <lastmod>2014-11-25T23:09:32-05:00</lastmod>
+    <lastmod>2014-11-27T00:22:43-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>davidcollins4481.github.io/</loc>
-    <lastmod>2014-11-25T23:09:32-05:00</lastmod>
+    <lastmod>2014-11-27T00:22:43-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>davidcollins4481.github.io/projects/</loc>
-    <lastmod>2014-11-25T23:09:32-05:00</lastmod>
+    <lastmod>2014-11-27T00:22:43-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>davidcollins4481.github.io/resume/</loc>
-    <lastmod>2014-11-25T23:09:32-05:00</lastmod>
+    <lastmod>2014-11-27T00:22:43-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>davidcollins4481.github.io/tags/</loc>
-    <lastmod>2014-11-25T23:09:32-05:00</lastmod>
+    <lastmod>2014-11-27T00:22:43-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>davidcollins4481.github.io/node_modules/gulp-connect/node_modules/connect/examples/public/form.html</loc>
+    <lastmod>2014-05-27T18:32:45-04:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>davidcollins4481.github.io/node_modules/gulp-connect/node_modules/connect/node_modules/errorhandler/public/error.html</loc>
+    <lastmod>2014-04-29T17:03:05-04:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>davidcollins4481.github.io/node_modules/gulp-connect/node_modules/connect/node_modules/serve-index/public/directory.html</loc>
+    <lastmod>2014-05-20T10:24:01-04:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>davidcollins4481.github.io/node_modules/gulp-connect/node_modules/tiny-lr/node_modules/faye-websocket/examples/sse.html</loc>
+    <lastmod>2013-02-14T02:48:48-05:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>davidcollins4481.github.io/node_modules/gulp-connect/node_modules/tiny-lr/node_modules/faye-websocket/examples/ws.html</loc>
+    <lastmod>2013-02-14T02:48:48-05:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>davidcollins4481.github.io/node_modules/gulp-connect/node_modules/tiny-lr/node_modules/qs/test/browser/index.html</loc>
+    <lastmod>2012-11-14T14:46:38-05:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>davidcollins4481.github.io/node_modules/gulp-connect/test/fixtures/multiple/app/index.html</loc>
+    <lastmod>2014-11-02T17:07:44-05:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>davidcollins4481.github.io/node_modules/gulp-connect/test/fixtures/multiple/dist/dist.html</loc>
+    <lastmod>2014-11-02T17:07:44-05:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>davidcollins4481.github.io/node_modules/gulp-jshint/node_modules/jshint/node_modules/console-browserify/node_modules/date-now/test/static/index.html</loc>
+    <lastmod>2013-01-22T19:55:00-05:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>davidcollins4481.github.io/node_modules/gulp-jshint/node_modules/jshint/node_modules/console-browserify/test/static/index.html</loc>
+    <lastmod>2014-04-07T22:54:11-04:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>davidcollins4481.github.io/node_modules/gulp-jshint/node_modules/jshint/node_modules/htmlparser2/test/Documents/Attributes.html</loc>
+    <lastmod>2014-11-04T18:45:01-05:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>davidcollins4481.github.io/node_modules/gulp-jshint/node_modules/jshint/node_modules/htmlparser2/test/Documents/Basic.html</loc>
+    <lastmod>2014-11-04T18:45:01-05:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>davidcollins4481.github.io/node_modules/gulp-livereload/node_modules/tiny-lr/examples/express/index.html</loc>
+    <lastmod>2014-07-08T10:05:51-04:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>davidcollins4481.github.io/node_modules/gulp-livereload/node_modules/tiny-lr/node_modules/faye-websocket/examples/sse.html</loc>
+    <lastmod>2014-05-16T19:37:20-04:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>davidcollins4481.github.io/node_modules/gulp-livereload/node_modules/tiny-lr/node_modules/faye-websocket/examples/ws.html</loc>
+    <lastmod>2014-05-16T19:37:20-04:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>davidcollins4481.github.io/node_modules/gulp-sass/node_modules/node-sass/node_modules/mocha/lib/reporters/templates/script.html</loc>
+    <lastmod>2014-08-21T15:56:27-04:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>davidcollins4481.github.io/node_modules/gulp-sass/node_modules/node-sass/node_modules/mocha/lib/reporters/templates/style.html</loc>
+    <lastmod>2014-08-21T15:56:27-04:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>davidcollins4481.github.io/node_modules/gulp-sass/node_modules/node-sass/node_modules/mocha/lib/template.html</loc>
+    <lastmod>2014-08-21T15:56:27-04:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>davidcollins4481.github.io/node_modules/gulp-sass/node_modules/node-sass/node_modules/sinon/test/server-clock.html</loc>
+    <lastmod>2014-05-08T14:06:35-04:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>davidcollins4481.github.io/node_modules/gulp-sass/node_modules/node-sass/node_modules/sinon/test/sinon-dist.html</loc>
+    <lastmod>2014-05-16T01:40:44-04:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>davidcollins4481.github.io/node_modules/gulp-sass/node_modules/node-sass/node_modules/sinon/test/sinon.html</loc>
+    <lastmod>2014-05-16T01:34:06-04:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>davidcollins4481.github.io/node_modules/gulp-sass/node_modules/node-sass/node_modules/sinon/test/timers.html</loc>
+    <lastmod>2014-05-08T14:06:35-04:00</lastmod>
+    <priority>0.6</priority>
   </url>
 </urlset>

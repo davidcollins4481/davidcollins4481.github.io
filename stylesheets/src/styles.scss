@@ -1,0 +1,25 @@
+@import 'vars';
+
+h1 {
+    color: $h1;
+}
+
+a {
+    color: $link;
+    text-decoration: none;
+    &:hover {
+        color: $link-hover;
+    }
+}
+
+body {
+    background-color: $background;
+}
+
+section {
+    #title {
+        p {
+            color: $subtext;
+        }
+    }
+}
