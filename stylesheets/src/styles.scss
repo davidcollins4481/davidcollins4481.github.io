@@ -84,3 +84,22 @@ section {
         }
     }
 }
+
+@include keyframes(colored) {
+    0% {
+        color: $magenta;
+    }
+
+    50% {
+        color: $purple;
+    }
+
+    100% {
+        color: $magenta;
+    }
+}
+
+.animated {
+    color: $magenta;
+    @include animation(colored 15s infinite linear);
+}

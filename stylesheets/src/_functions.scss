@@ -10,3 +10,22 @@
     -ms-border-radius: $radius;
     border-radius: $radius;
 }
+
+@mixin keyframes($animation-name) {
+    @-webkit-keyframes $animation-name {
+        @content;
+    }
+    @-moz-keyframes $animation-name {
+        @content;
+    }
+    @keyframes $animation-name {
+        @content;
+    }
+}
+
+@mixin animation($string) {
+    -webkit-animation: #{$string};
+    -moz-animation: #{$string};
+    -ms-animation: #{$string};
+    border-radius: #{$string};
+}
