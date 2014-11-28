@@ -17,6 +17,7 @@ var cssbasedir = themebasedir + 'stylesheets/';
 var paths = {
     scripts: [],
     stylesheets: [
+        cssbasedir + 'src/font-awesome.css',
         cssbasedir + 'src/styles.scss'
     ]
 };

@@ -1,4 +1,6 @@
 @import 'vars';
+@import 'functions';
+@import 'fonts';
 
 h1 {
     color: $h1;
@@ -12,14 +14,144 @@ a {
     }
 }
 
+p, ul, ol, table, pre, dl {
+    margin: 0 0 20px;
+}
+
 body {
-    background-color: $background;
+    padding: 0px 0 20px 0px;
+    margin: 0px;
+    font: 14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #f0e7d5;
+    font-weight: normal;
+    background: $background;
+    font-size: 15px;
+    line-height: 1.8;
+    background-attachment: fixed !important;
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #2a2a29), color-stop(100%, #1c1c1c));
+    background: -webkit-linear-gradient(#2a2a29, #1c1c1c);
+    background: -moz-linear-gradient(#2a2a29, #1c1c1c);
+    background: -o-linear-gradient(#2a2a29, #1c1c1c);
+    background: linear-gradient(#2a2a29, #1c1c1c);
+    -webkit-font-smoothing: subpixel-antialiased;
+
+}
+
+hr {
+    margin-top: 27px;
+    margin-bottom: 27px;
+    height: 0;
+    border: 0;
+    border-bottom: 1px dashed #49B1F7;
+}
+
+h1,h2,h3 {
+    line-height: 1.2em;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+    display: block;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 20px;
 }
 
 section {
-    #title {
+    max-width: 960px;
+    padding: 30px 0px 50px 0px;
+    margin: 20px 0;
+    margin-top: 70px;
+
+    .title {
+        border: 0;
+        outline: none;
+        margin: 0 0 20px 0;
+        padding: 0 0 5px 0;
+
         p {
             color: $subtext;
+            text-align: center;
+            font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-weight: normal;
+            font-size: 18px;
+            @include breakpoint(450px) {
+                font-size: 15px;
+            }
+
+            @include breakpoint(390px) {
+                font-size: 14px;
+            }
+        }
+
+        i {
+            color: white;
+        }
+
+        h1 {
+            font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 40px;
+            text-align: center;
+            margin: 0 0 10px 0;
+
+            @include breakpoint(528px) {
+                font-size: 33px;
+            }
+
+            @include breakpoint(450px) {
+                font-size: 28px;
+            }
+
+            @include breakpoint(390px) {
+                font-size: 25px;
+            }
+        }
+
+        .sitename {
+            color: inherit;
+        }
+
+        .credits {
+            font-size: 13px;
+            font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-weight: normal;
+            color: #696969;
+            margin-top: -27px;
+            &.right {
+                float: right;
+            }
+        }
+    }
+
+    .text-center {
+        text-align: center;
+
+        .circular {
+            width: 300px;
+            height: 300px;
+            border-radius: 150px;
+            -webkit-border-radius: 150px;
+            -moz-border-radius: 150px;
+            margin-bottom: 15px;
         }
     }
 }
