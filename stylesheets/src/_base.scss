@@ -37,27 +37,26 @@ hr {
     border-bottom: 1px dashed #49B1F7;
 }
 
-h1,h2,h3 {
+h1, h2, h3 {
     line-height: 1.2em;
     color: $headers;
 }
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-nav,
-section,
-summary {
-    display: block;
-}
+$headerTypes: (h1: 40px, h2: 30px);
 
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+@each $header, $initial in $headerTypes {
+    #{$header} {
+        font-size: $initial;
+        @include breakpoint(528px) {
+            font-size: $initial * .825
+        }
+
+        @include breakpoint(450px) {
+            font-size: $initial * .70
+        }
+
+        @include breakpoint(390px) {
+            font-size: $initial * .625;
+        }
+    }
 }
