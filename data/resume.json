@@ -105,6 +105,108 @@
             ],
         }
 
+    ],
+    "development_tools" : [
+        {
+            "name" : "Git",
+            "experience_items" : [
+                "branching/merging",
+                "deploying with Git",
+            ]
+        },
+        {
+            "name" : "SVN"
+        },
+    ],
+    "operating_systems" : [
+        {
+            "name" : "Linux/UNIX",
+            "experience_items" : [
+                "Eleven years of Linux experience",
+                "Setup/configure multiple types of servers including Apache Web Server and SSH",
+                "Full working knowledge of UNIX toolchain (sed, awk, grep, find, etc.)",
+            ]
+        }
+    ],
+    "employment" : [
+        {
+            "organization" : {
+                "name" : "Innis Maggiore"
+            },
+            "title" : "Senior Web Developer",
+            "start_date" : {
+                "month" : 5,
+                "year"  : 2014
+            },
+            "end_date" : null,
+            "experience_items" : [
+                "Develop/Deploy over 20 websites and applications",
+                "Supervise junior developers"
+            ]
+        },
+        {
+            "organization" : {
+                "name" : "University of Akron"
+            },
+            "title" : "Senior Web Development Specialist",
+            "start_date" : {
+                "month" : 1,
+                "year"  : 2014
+            },
+            "end_date" : {
+                "month" : 5,
+                "year"  : 2014
+            },
+            "experience_items" : [
+                "Implement client-side solutions in Javascript/HTML/CSS",
+                "Troubleshoot bugs",
+                "Automation",
+            ]
+        },
+        {
+            "organization" : {
+                "name" : "Waveright InfoTech, LLC",
+            },
+            "title" : "Software Developer",
+            "start_date" : {
+                "month" : 1,
+                "year"  : 2008,
+            },
+            "end_date" : {
+                "month" : 11,
+                "year"  : 2013
+            },
+            "experience_items" : [
+                "Implemented/troubleshot server-side and client-side features for world-renowned customers such as Estee Lauder (www.esteelauder.com), MAC Cosmetics (www.maccosmetics.com), Bumble and Bumble (www.bumbleandbumble.com), Darphin Paris (www.darphin.com) such as: Product search Interactive product color swatches (Javascript/Dojo Toolkit/Prototype) Design/layout implementation and maintenance (CSS/HTML) Maintenance of custom Apache Mod Perl Framework Cross-browser compliance with client-side technologies such as HTML,CSS,and Javascript Store locators using HTML5 geolocation APIs to find the closest stores PayPal Integration Integrate promotional SMS messaging via third-party APIs",
+                "Installed, configured, and maintained numerous Apache web servers",
+                "Adhered to strict version control standards using the Subversion Version Control System (migrated codebase to Git in 2010)",
+                "Collaborated/communicated with developers/customers using various web-based tools such as Bugzilla and RT(Request Tracker)",
+                "System Administration",
+            ]
+        },
+        {
+            "organization" : {
+                "name" : "University Of Akron"
+            },
+            "title" : "Web Developer (student position)",
+            "start_date" : {
+                "month" : 3,
+                "year"  : 2007,
+            },
+            "end_date" : {
+                "month" : 1,
+                "year"  : 2008
+            },
+            "experience_items" : [
+                "Maintain departmental and faculty websites for the College of Engineering"
+            ]
+        }
+    ],
+    "hobbies" : [
+        { "name": "Linux/UNIX" },
+        { "name" : "Open Source Software" },
+        { "name" : "Programming challenges (ex: www.codeeval.com)" },
+        { "name" : "Raspberry Pi, Arduino, and basic electronics" },
+        { "name" : "Reading nonfiction" },
     ]
-
 }
