@@ -1,0 +1,110 @@
+{
+    "education": [
+        {
+            "institution": "University of Akron",
+            "location": {
+                "city": "Akron",
+                "state": "Ohio"
+            },
+            "earned_title": "Bachelor of Science in Computer Science",
+            "completion_date": {
+                "year": 2008,
+                "month": "August"
+            }
+        }
+    ],
+    "linked_accounts": [
+        { "name": "Email", "link_label": "davidcollins4481@gmail.com", "url": "mailto:davidcollins4481@gmail.com" },
+        { "name": "Website", "link_label": "http://davidcollins4481.github.io", "url": "http://davidcollins4481.github.io" },
+        { "name": "Github", "link_label": "https://github.com/davidcollins4481", "url": "https://github.com/davidcollins4481" },
+        { "name": "LinkedIn", "link_label": "http://www.linkedin.com/pub/david-collins/32/531/743", "url": "http://www.linkedin.com/pub/david-collins/32/531/743" },
+    ],
+    "programming_languages": [
+        {
+            "name" : "Javascript",
+            "frameworks" : [
+                "AngularJS",
+            ],
+            "libraries" : [
+                "JQuery/JQuery Mobile",
+                "Dojo",
+                "Prototype",
+            ],
+            "experience_items" : [
+                "Optimization",
+                "Mustache/Handlebars",
+                "Extensive AJAX Experience",
+                "Experience implementing HTML5 JS features such as geolocation support for multiple mobile devices",
+                "Third-party API Integration",
+                "NodeJS (Express)"
+            ]
+        },
+        {
+            "name" : "XHTML/HTML5/CSS",
+            "experience_items" : [
+                "Cross-browser compatibility",
+                "Convert PSD mockup layouts to HTML/CSS",
+                "Mobile Layouts and responsive design",
+                "Bootstrap",
+                "SASS"
+            ],
+        },
+        {
+            "name" : "MySQL/SQLite/SQL Server",
+        },
+        {
+            "name" : "PHP",
+            "frameworks" : [
+                "Laravel",
+                "Silverstripe",
+                "Magento",
+                "CodeIgniter",
+            ]
+        },
+        {
+            "name" : ".NET",
+            "experience_items" : [
+                ".NET MVC 5",
+                "C#",
+                "Entity Framework",
+                "Azure",
+            ]
+        },
+        {
+            "name" : "Perl",
+            "frameworks" : [
+                "Mason",
+                "Catalyst",
+                "Custom Mod Perl-based framework",
+            ],
+            "experience_items" : [
+                "Unit Testing",
+                "General scripting for miscellaneous system administration tasks",
+                "Web scraping",
+                "Automated site testing",
+                "data processing/parsing",
+            ]
+        },
+        {
+            "name" : "Java",
+            "experience_items" : [
+                "Swing",
+                "Android"
+            ]
+        },
+        {
+            "name" : "Python",
+            "experience_items" : [
+                "Software development challenges",
+                "Hobbyist projects, i.e. - Raspberry Pi",
+                "Google Analytics APIs",
+            ],
+            "frameworks" : [
+                "Flask",
+                "PyGame"
+            ],
+        }
+
+    ]
+
+}

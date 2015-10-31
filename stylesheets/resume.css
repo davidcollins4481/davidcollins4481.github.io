@@ -1,0 +1,50 @@
+body {
+    font-family: helvetica;
+    font-size: .8em;
+    line-height: 1.4em;
+}
+
+#main_container {
+    width: 800px;
+}
+
+#header h2 {
+    margin-bottom: 0px;
+    margin-top: 50px;
+    font-size: 2.1em;
+    display: inline-block;
+}
+
+#main_container h4 {
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+#main_container p {
+    margin-top: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.highlighted-skill {
+    font-weight: bold;
+}
+
+ul {
+    margin-top: 0px;
+}
+
+/* References */
+#references h2 {
+    margin-bottom: 0;
+}
+
+.contact {
+    margin: 20px 0;
+}
+
+.contact p span {
+    display: block;
+}
